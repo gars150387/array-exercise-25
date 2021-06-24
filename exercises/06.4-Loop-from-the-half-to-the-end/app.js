@@ -6,5 +6,11 @@ var increasingValue = 1;
 
 for(var i = initialValue; i<stopValue; i = i + increasingValue)
 {
-	console.log(mySampleArray[i]);
+	// console.log(mySampleArray);
+}
+let halftArray=mySampleArray.length / 2;
+// console.log(halftArray)
+
+for (let i =halftArray; i<mySampleArray.length; i++){
+  console.log(mySampleArray[i])
 }
